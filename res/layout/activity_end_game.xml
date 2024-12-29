@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/endGameScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#915DB4DB"
+    tools:context=".EndGameActivity">
+
+    <!-- High Score -->
+
+    <!-- Player Result -->
+
+    <!-- Buttons -->
+
+    <TextView
+        android:id="@+id/gameOverTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="116dp"
+        android:text="Game Over"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="#FF0000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/highScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="10dp"
+        android:text="High Score: 0"
+        android:fontFamily="@font/baloo_bhai"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/playerResultText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusText" />
+
+    <TextView
+        android:id="@+id/playerResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="80dp"
+        android:text="Your Score: 0"
+        android:fontFamily="@font/baloo_bhai"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/homeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highScoreText" />
+
+    <Button
+        android:id="@+id/retryButton"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="131dp"
+        android:text="Retry"
+        android:fontFamily="@font/baloo_bhai"
+        android:textSize="36sp"
+        android:backgroundTint="#C903A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="49dp"
+        android:text="Home"
+        android:fontFamily="@font/baloo_bhai"
+        android:textSize="36sp"
+        android:backgroundTint="#C903A9F4"
+        app:layout_constraintBottom_toTopOf="@+id/retryButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="182dp"
+        android:text="TextView"
+        android:fontFamily="@font/baloo_bhai"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameOverTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

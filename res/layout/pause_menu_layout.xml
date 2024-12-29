@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/pause_menu_background"
+    android:elevation="8dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Continue" />
+
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="New Game" />
+
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="Home" />
+
+</LinearLayout>
