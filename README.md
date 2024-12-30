@@ -1,5 +1,5 @@
 # GeoGuesser
-
+Gameplay video: https://www.youtube.com/watch?v=iXXZJer66VQ
 GeoGuesser is a geographic trivia quiz Android app that tests users' knowledge of the world. Players are presented with various geographic-related questions, such as capitals, countries, landmarks, and more, and they must select the correct answer from multiple choices.
 
 The app is built with Android Studio using Kotlin and Android's native UI components.
