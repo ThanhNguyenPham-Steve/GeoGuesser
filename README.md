@@ -1,6 +1,6 @@
-# GeoGuesser
+# GeoMaster
 Gameplay video: https://www.youtube.com/watch?v=iXXZJer66VQ
-GeoGuesser is a geographic trivia quiz Android app that tests users' knowledge of the world. Players are presented with various geographic-related questions, such as capitals, countries, landmarks, and more, and they must select the correct answer from multiple choices.
+GeoMaster is a geographic trivia quiz Android app that tests users' knowledge of the world. Players are presented with various geographic-related questions, such as capitals, countries, landmarks, and more, and they must select the correct answer from multiple choices.
 
 The app is built with Android Studio using Kotlin and Android's native UI components.
 
@@ -12,11 +12,11 @@ The app is built with Android Studio using Kotlin and Android's native UI compon
 
 ## Installation
 
-To run the Pong game on your local machine, follow these steps:
+To run the GeoMaster game on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ThanhNguyenPham-Steve/GeoGuesser.git
+   git clone https://github.com/ThanhNguyenPham-Steve/GeoMaster.git
 2. Open the project in Android Studio:
 
     Launch Android Studio and select Open an existing project.
@@ -33,7 +33,7 @@ To run the Pong game on your local machine, follow these steps:
 
 ## Usage
   Usage
-  When you open the GeoGuesser app, you'll be prompted to select a difficulty level (Easy, Medium, Hard). Each difficulty has its own high score tracking.
+  When you open the GeoMaster app, you'll be prompted to select a difficulty level (Easy, Medium, Hard). Each difficulty has its own high score tracking.
   
   How to Play:
   Lives: You start with 3 lives. Each time you answer a question incorrectly, you lose one life. Once you lose all 3 lives, the game ends.
